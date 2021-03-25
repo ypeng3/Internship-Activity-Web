@@ -7,8 +7,11 @@ Web Design.
 # Used Language
 
 JavaScrip
+
 JsQuary
+
 HTML
+
 CSS
 
 # What I did 
