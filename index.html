@@ -1,0 +1,282 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Internship">
+        <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <link href="small.css" media="(max-width:600px)" rel="stylesheet" /> 
+        <link href="middle.css" media="(max-width:960px)" rel="stylesheet" /> 
+        <link rel="stylesheet" media="screen" href="wsview.css" /> 
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    </head>
+    
+    <body>
+    <div class = "modal-body">
+        <div class="banner" id="banner">
+        </div>
+        <div class="fire" id="fire">
+            <img src=images/fire.png alt>
+        </div>
+        <div class="tree" id="tree">
+            <img src=images/tree.png alt>
+        </div>
+        <div class="gameRule">
+            
+            <p class="ruleIcon">
+                <img src=images/ruleIcon.png alt>
+                <span>——参赛规则——</span>
+            </p>
+            <div >
+                <div class="needs">
+                    <h3>参赛作品要求</h3>
+                    <ul>
+                        <li>视频内容能体现<span>“就地”、“过年”、“防疫”</span>等正能量内容</li>
+                        <li>视频必须为<span>原创</span>，时长不超过<span>30s</span></li>
+                        <li> 经审核不满足上述要求的作品不予参选</li>
+                    </ul>
+                </div>
+
+                <div class="gift">
+
+                    <h3>评选规则奖项设置</h3>
+                    <ul>
+                        <li>在活动页为您觉得赞的作品投票，每个作品每天可投票一次，截至正月初五24:00得票数累计
+                            <br><span>一等奖：</span> 票数累计 <span>前10%</span>的作者，
+                            <br><span>二等奖：</span> 票数累计 <span>前10%-30%</span>的作者，
+                            <br><span>等三奖：</span> 票数累计 <span>前30%-60%</span>的作者，
+                        </li>
+                        <li>中铁电商党工青公众号每日精选前一日短视频作品1-3个，被选为每日精选作品的作者可获得<span>“就地走心过年”大礼包</span>。</li>
+                        <li>本次活动累计上传符合要求的作品数量前三的部门可获得<span>“就地组团过年”超级大礼包</span>。<br></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="ruleDetail"id="register" >
+                <div>
+                    <h3>比赛时间</h3>
+                    <ul>
+                        <li>
+                            正月初一至正月初五
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>参赛人员</h3>
+                    <ul>
+                        <li>
+                            鲁班公司全体员工
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>参与方式</h3>
+                    <ul>
+                        <li>
+                            登录鲁班网校或扫描鲁班网校活动专属页面二维码参与视频上传
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>其他</h3>
+                    <ul>
+                        <li>
+                            为大力支持本次活动顺利开展，公司特在鲁班云桌面开设视频剪辑软件专区，大家可登陆鲁班云桌面进行视频剪辑。
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+           
+            <p  class="opendetail" id="detail">展开大赛详情</p >
+                
+            <svg  id = "path1"  class="path1" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L5 5L9 1" stroke="black" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+            <svg id = "path2"  class="path2" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5L5 0.999999L1 5" stroke="black" stroke-opacity="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+                
+        </div>
+         <!-- <span class="share"><img src="images/share.png" alt=""></span> -->
+        <p style="text-align: center;" class="joinP" id="joinP" onclick = "showCon2();">
+        </p> 
+        <div class="conBox">
+            <ul class="videoList">
+                <li class="videoItem"> 
+                    <div> <p video_id = '1' class="previewDom"  play_auth = ''> 
+                             <img src="images/play.png" onclick = "showCon3();"class="playIcon">  
+                            <img src="images/vedio.png" alt="" class="itemimg"> 
+                        
+                        </p> 
+                        <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                        <p>张小雨 鲁班公司</p> 
+                        <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                            <img src="/images/vote.png" alt="" onclick = "showCon();" class="voteBtn" video_id = '1'> 
+                        </p> 
+                    </div> 
+ 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '2' class="previewDom"  play_auth = ''> 
+                        <img src="images/play.png" onclick = "showCon3();" class="playIcon">  
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt=""  onclick = "showCon();" class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '3' class="previewDom"  play_auth = ''> 
+                         <img src="images/play.png"  onclick = "showCon3();" class="playIcon">  
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt="" onclick = "showCon();" class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '4' class="previewDom"  play_auth = ''> 
+                        <img src="images/play.png" onclick = "showCon3();" class="playIcon"> 
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt="" onclick = "showCon();" class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '5' class="previewDom"  play_auth = ''> 
+                        <img src="images/play.png" onclick = "showCon3();"class="playIcon">  
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt="" onclick = "showCon();" class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '6' class="previewDom"  play_auth = ''> 
+                      <img src="images/play.png" onclick = "showCon3();" class="playIcon">  
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt="" onclick = "showCon();" class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '7' class="previewDom"  play_auth = ''> 
+                        <img src="images/play.png" onclick = "showCon3();"class="playIcon">  
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt="" onclick = "showCon();" class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                <li class="videoItem">
+                    <div> <p video_id = '8' class="previewDom"  play_auth = ''> 
+                       <img src="images/play.png" onclick = "showCon3();" class="playIcon">  
+                        <img src="images/vedio.png" alt="" class="itemimg"> 
+                    
+                    </p> 
+                    <p>视频名称（视频名称最多展示两行,如本实例）</p> 
+                    <p>张小雨 鲁班公司</p> 
+                    <p > <span><b style="font-weight: normal;font-family: PingFang SC;color: #FF504F;margin-right: 3px;">200</b>票</span> 
+                        <img src="/images/vote.png" alt=""  onclick = "showCon();"class="voteBtn" video_id = '2'> 
+                    </p> 
+                    </div> 
+                </li>
+                </li>
+            </ul>
+        </div>
+        <div class="joinBox">
+            <div class = "joinmark">
+                <h3 class="jointitle">
+                    <span class='titleJoin'>上传视频</span>
+                    <span class="joinClose"></span>
+                </h3> 
+                <div class="join"> 
+                    <form class="layui-form" action=""> 
+                        <div class="layui-form-item"> 
+                            <div class="UploadBox"> 
+                                <div> 
+                                    <img src="images/frame.png" alt="" id="fileHelp" onclick="ToSelectFile()"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class='form-item'>
+                            <div class="layui-form-item"> 
+                                <input type="text" name="videoName" lay-verify="required" lay-reqtext="视频上传人不能为空" 
+                                autocomplete="off" placeholder="视频名称"  class="layui-input">
+                            </div>  
+                            <div class="layui-form-item"> 
+                                <input type="text" name="userName" lay-verify="required" lay-reqtext="视频作者不能为空" 
+                                autocomplete="off" placeholder="视频作者"  class="layui-input">
+                            </div>  
+                            <div class="layui-form-item"> 
+                                <input type="text" name="area" lay-verify="required" lay-reqtext="所属部门不能为空" 
+                                autocomplete="off" placeholder="所属部门"  class="layui-input">
+                            </div>  
+                            <div class="layui-form-item"> 
+                                <button type="submit" onclick = "closeCon2();" class="layui-btn" lay-submit="" lay-filter="demo1" id="submitBtn">
+                                    提交
+                                </button>
+                            </div> 
+                        </div>
+ 
+                    </form>
+                </div>
+        </div> 
+        </div>
+        <div class="previewBox"> 
+            <div class="previewmark"> 
+                <img src="/images/sure.png" alt=""  onclick = "closeCon3();"class="sure" > 
+                    
+                </div>
+            </div>
+        </div>
+        <div class="tipBox"> 
+            <div class="tipmark"> 
+                <h3 class="tiptitle">
+                    <span class='titleSp'>投票成功</span>
+                </h3> 
+                <div class="vote"> 
+                    <p class="alreadyVote">今日已投票</p> 
+                    <p class="nextTime">您可于明日再次投票</p> 
+                    <button type="button" class="Ikonw" onclick = "closeCon();">
+                        我知道了
+                    </button> 
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+        <script src="app.js">  
+              </script>
+    </body>
+</html>

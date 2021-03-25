@@ -1,0 +1,470 @@
+/**Background**/
+
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .banner img{
+    width: 100%;
+    float: left;
+    height: auto;
+  }
+
+body {
+   
+    line-height: 24px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+}
+blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/** Rule Icon**/
+.ruleIcon img {
+    display: none;
+}
+
+.ruleIcon span {
+    margin-top: 24px;
+    display: block;
+}
+
+.ruleIcon {
+    text-align: center;
+    font-size: 24px;
+    font-family: Microsoft YaHei;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+div {
+    display: block;
+}
+.gameRule {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/**Needs 作品要求 **/
+.needs {
+    width: 400px;
+    float: left;
+}
+.gift {
+    width: 620px;
+    float: right;
+}
+li {
+    list-style: none;
+}
+
+.gameRule div ul li::before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #44B0FF;
+    border-radius: 4px;
+    left: 0;
+    top: 8px;
+}
+.gameRule div ul{
+    margin-top: 10px;
+  }
+.gameRule div ul li {
+    padding-left: 15px;
+    position: relative;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    margin-top: 5px;
+    font-family: PingFang SC;
+    color: rgba(0, 0, 0, 0.65);
+}
+.gameRule div h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.gameRule div ul li span {
+    color: #FD6434;
+}
+
+/**张开**/
+.opendetail{
+    text-align: right;
+    color: rgba(0, 0, 0, 0.45);
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+/**Path**/
+.path1 {
+    position:absolute;
+    height: 6px;
+    width: 8px;
+    left: 1438px;
+    top: 749px;
+    border-radius: 0px;
+
+}
+/* Path 3 */
+
+.path2{
+    position: absolute;
+    height: 6px;
+    width: 8px;
+    left: 1438px;
+    top: 883px;
+    border-radius: 0px;
+    
+}
+
+/**game with dive **/
+
+.gameRule >div {
+    clear: both;
+    overflow: hidden;
+}
+.ruleDetail{
+    display: none;
+    overflow: hidden;
+  }
+  .ruleDetail>div{
+    float: left;
+  }
+  .ruleDetail>div:nth-child(1){
+    width: 150px;
+  }
+  .ruleDetail>div:nth-child(2){
+    width: 150px;
+    margin-left: 60px;
+  }
+  .ruleDetail>div:nth-child(3){
+    width: 300px;
+    margin-left: 60px;
+  }
+  .ruleDetail>div:nth-child(4){
+    width: 300px;
+    margin-left: 60px;
+  }
+
+
+
+
+/**Fire**/
+.fire img{
+position: absolute;
+left: 78.54%;
+right: 15.43%;
+top: 39.75%;
+bottom: 51.95%;
+
+}
+/**Tree**/
+
+.tree img{
+    position: absolute;
+    left: 0%;
+    right: 93.82%;
+    top: 71.29%;
+    bottom: 16.99%;
+
+}
+
+/**RuleDetail**/
+.ruleDetail{
+    margin-top: 30px;
+}
+
+/**JoinP**/
+.joinP {
+  padding-top: 10px;
+  clear: both;
+  cursor: pointer;
+}
+
+.uploadVideo {
+  width: 160px;
+  height: 57px;
+  
+}
+
+    /*视频列表*/
+  
+    .videoList{
+      overflow: hidden;
+      box-sizing: border-box;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 5px;
+    }
+    .videoList .videoItem {
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      padding: 0 5px;
+      padding-top: 10px;
+  }
+    .videoList .videoItem div p{
+      font-family: PingFang SC;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+    }
+    .videoList .videoItem div{
+      background: rgba(255,250,243);
+      border-radius:5px ;
+      overflow: hidden;
+      
+    }
+    .videoItem div p:nth-child(1) img{
+      width: 100%;
+      float: left;
+    }
+    .videoItem div p:nth-child(1){
+      cursor: pointer;
+      overflow: hidden;
+      color: #222222;
+    }
+    .videoItem div p:nth-child(2){
+      overflow:hidden;
+      text-overflow:ellipsis;
+      display:-webkit-box;
+      font-size: 16px;
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:2; 
+      height: 45px;
+      box-sizing: border-box;
+      padding: 0 10px ;
+      margin: 5px 0;
+    }
+    .videoItem div p:nth-child(3){
+      font-size: 14px;
+      color: #777777;
+      padding: 0 10px ;
+      margin: 5px 0;
+      height: 16px;
+      line-height: 16px;
+    }
+    .videoItem div p:nth-child(3) span{
+      float: right;
+    }
+    .videoItem div p:nth-child(4){
+      text-align: left;
+      color: #777777;
+      padding: 0 10px ;
+      padding-bottom: 15px;
+      padding-top: 10px;
+      position: relative;
+      font-size: 16px;
+    }
+    .previewDom{
+      position: relative;
+    }
+    .previewDom span{
+      position: absolute;
+      color: #fff;
+      bottom: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: 10;
+      left: 0;
+      font-size: 12px;
+      padding: 5px 10px;
+      background: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.6));
+    }
+    .videoItem .previewDom .playIcon{
+      position: absolute;
+      width: 50px;
+      height: 40px;
+      left: 50%;
+      top: 50%;
+      margin-left: -25px;
+      margin-top: -20px;
+    }
+    .voteBtn{
+      width: 56px;
+      height: 28px;
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      cursor: pointer;
+    }
+    .videoItem .itemimg{
+      width: 100%;
+    }
+
+    /**上传视频**/
+    .UploadBox{
+      width: 100%;
+      height: 130px;
+      border: 1px dashed #777777;
+      box-sizing: border-box;
+      display: table;
+      color: #777777;
+      text-align: center;
+      
+    }
+    .UploadBox div{
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .UploadBox div img{
+      width: 36px;
+      cursor: pointer;
+    }
+    /*视频播放*/
+    .previewBox,.joinBox,.tipBox{
+      position: fixed;
+      left: 0;
+      top:0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1000;
+      display: none;
+  }
+  .previewmark,.joinmark,.tipmark{
+      background: #fff;
+      border-radius:10px ;
+      position: absolute;
+      overflow: hidden;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+  }
+  .previewtitle,.jointitle,.tiptitle{
+     letter-spacing: 0.02em;
+     color: rgba(0, 0, 0, 0.65);
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      font-size:16px;
+      position: relative;
+      margin-top: 0;
+     font-weight: bold;
+     font-family: PingFang SC;
+  }
+  .preview,.join{
+      width: 600px;
+      padding:10px;
+  }
+  /**Vote**/
+  .vote{
+   width: 291px;
+   box-sizing: border-box;
+  }
+  .vote p{
+     font-size: 14px;
+     color:rgba(0, 0, 0, 0.45);
+     line-height: 24px;
+     text-align: center;
+     padding-top: 5px;
+  }
+  .vote button{
+    height: 48px;
+    width: 100%;
+    line-height: 48px;
+    box-sizing: border-box;
+    border: none;
+    color: #FD6434;
+    border-top: 1px solid #DDDDDD;
+    background: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .preview{
+    height: 300px;
+    padding:0px;
+    background: black;
+    position: relative;
+  }
+  /**参与**/
+  .join {
+    width: 400px;
+  }
+
+  .previewClose{
+    z-index: 9999;
+  }
+  .join p{
+    padding-top: 5px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  .join p.uploadOk{
+    padding-top: 0px;
+  }
+  #video-list {
+    height: 16px;
+  }
+  .join p span{
+    display: inline-block;
+    width: 17%;
+    text-align: right;
+    margin-right: 10px;
+    line-height: 30px;
+    color: #222222;
+  }
+  .join p input{
+    width: 75%;
+    height: 30px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 15px;
+    padding: 0 20px;
+  }
+  /**填表**/
+  .form-item{
+
+    padding-top:16px;
+    padding-bottom:16px;
+  }
+  .layui-input{
+    border-radius: 25px;
+    border: none;
+    background: #F2F2F2;
+    padding: 20px;
+
+    width:230px;
+
+  }
+  .layui-form-item {
+    margin-bottom: 15px;
+    clear: both;
+    *zoom: 1;
+}
+  /**Submit Button**/
+  #submitBtn{
+    width: 100%;
+    height: 36px;
+    border-radius: 18px;
+    border: none;
+    background: linear-gradient(269.68deg, #FF9B71 -23.55%, #FF9B71 -23.54%, #FF1616 105.8%);
+    opacity: 0.8;
+    box-shadow: 2px 4px 6px rgba(196, 72, 72, 0.15);
+    border-radius: 137px;
+  }
+
+  .layui-btn {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
